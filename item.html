@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./homepage.html"
+                  >Главная</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Отзывы</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Категории
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">RPG</a></li>
+                  <li><a class="dropdown-item" href="#">Шутеры</a></li>
+                  <li><a class="dropdown-item" href="#">Гонки</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn btn-secondary btn-warning" type="submit">
+              Найти
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <section class="item mb-5">
+      <div class="container d-flex">
+        <div class="card mt-3" style="width: 18rem">
+          <img
+            class="card-img-top"
+            src="./img/a9a530b08d4ae40a0dee7b0d0373e368.jpg"
+            alt="Card image cap"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Cyberpunk 2077</h5>
+            <p class="card-text">
+              Игра в с открытым миром в пост панк стилистике!
+            </p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Жанр: </b>Шутер</li>
+            <li class="list-group-item"><b>Тип: </b>Стратегия</li>
+            <li class="list-group-item">
+              <b>Возрастное ограничение: </b>18+
+            </li>
+            <li class="list-group-item"><b>Локализация: </b>RU, EN</li>
+            <li class="list-group-item"><b>Рейтинг: </b>8,5</li>
+            <li class="list-group-item"><b>Устройства: </b>PC, PS4, XBOX</li>
+            <li class="list-group-item"><b>Издатель: </b>Electronic Arts</li>
+            <li class="list-group-item"><b>Разработчик: </b>Electronic Arts</li>
+            <li class="list-group-item"><b>Серия: </b>Electronic Arts</li>
+            <li class="list-group-item"><b>Описание: </b>Lorem ipsum dolor sit amet consectetur adipisicing elit. In culpa explicabo sequi veniam odio sunt laudantium cumque impedit eaque doloremque.</li>
+          </ul>
+          <div class="card-body">
+            <a href="#" class="btn btn-warning w-100">Оставить комментарий</a>
+          </div>
+        </div>
+        <div class="comments comments-width m-3">
+          <form class="mb-3">
+            <div class="form-group mb-3">
+                <textarea class="form-control comment" id="exampleFormControlTextarea1" rows="3" placeholder="Оставить комментарий"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning w-100">Оставить комментарий</button>
+          </form>
+          <div class="card mb-3">
+            <div class="card-header">NadyaBoom1998</div>
+            <div class="card-body">
+              <p class="card-text">А как вас воспитали родители? Любят ли они вас?</p>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="card-header">Obeme1970</div>
+            <div class="card-body">
+              <p class="card-text">ВЫ ЧЕ ЕБЛАНЫ БЛЯТЬ, БЫЛИ БЫ ТЫ ЧЕЛОВЕКОМ!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
